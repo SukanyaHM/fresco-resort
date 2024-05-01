@@ -197,7 +197,7 @@
 	width: 100%;
 	display: inline-block;
 	position: relative;
-	margin-bottom: 150px;
+	/* margin-bottom: 150px; */
 }
 .booking-section-1::before {
     background-color: #292b2c;
@@ -211,6 +211,9 @@
     transform: skewX(136deg);
     transform-origin: right top 0;
     width: 38.2291%;
+}
+.booking-section-1 a:hover{
+	background-color: #d71515;
 }
 .booking-section-1 .booking-content-block h5 {
 	color: #DD291C;
@@ -398,9 +401,22 @@
 	right: 23px;
 }
 .welcome-section-1 .wc-max-content h3 {
-	color: #222;
+	color: #da0d0d;
 	font-family: 'Open Sans', serif;
 	font-size: 34px;
+	letter-spacing: 0.34px;
+	line-height: 26px;
+	margin-top: 0;
+	margin-bottom: 15px;
+	word-wrap: break-word;
+	padding-top: 10px;
+	padding-left: 10px;
+	font-weight: 800;
+}
+.welcome-section-1 .wc-max-content h4 {
+	color: #222;
+	font-family: 'Open Sans', serif;
+	font-size: 30px;
 	letter-spacing: 0.34px;
 	line-height: 26px;
 	margin-top: 0;
@@ -482,8 +498,9 @@
 /* - Whychooseus Section */
 .whychooseus-section {
 	background-color: #fafafa;
-	margin-bottom: 150px;
-	padding: 120px 0;
+	/* margin-bottom: 150px; */
+	/* padding: 120px 0; */
+	margin-top: 30px;
 }
 .whychooseus-section .choose-us-block {
 	background-color: #fff;
@@ -741,7 +758,8 @@
 
 /* - Counter Section */
 .counter-section {
-	background-image: url("../images/counter-bg.jpg");
+	/* background-image: url("../images/counter-bg.jpg"); */
+	background-color: #111;
 	background-repeat: no-repeat;
 	background-size: cover;
 	position: relative;
@@ -1352,7 +1370,8 @@
 /* - Service Section */
 .service-section {
 	background-color: #f4f4f4;
-	padding: 150px 0;
+	padding: 40px 0px;
+	/* margin-bottom: 20px; */
 }
 .service-section .service-content {
 	background-color: #fff;
@@ -2514,6 +2533,7 @@
 		font-size: 12px;
 		padding: 4px 6px;
 	}
+	
 	/* - Widget Area */
 	.widget-area .widget_categories ul li {
 		padding-left: 20px;
@@ -2675,6 +2695,9 @@
 	.welcome-section-1 .wc-max-content h3 {
 		font-size: 30px;
 	}
+	/* .welcome-section-1 .wc-max-content h4 {
+		font-size: 30px;
+	} */
 	/* - Whychooseus Section */
 	.whychooseus-section .col-xs-6 {
 		width: 100%;
