@@ -60,6 +60,16 @@
 ul.nav.navbar-nav.header2 li a {
 	color: #fff;
 }
+ul.nav.navbar-nav.header2 li button a {
+	color: #000000;
+	font-weight: bold;
+	text-decoration: none;
+}
+ul.nav.navbar-nav.header2 li button a:hover {
+	color: #ffffff;
+	font-weight: bold;
+	text-decoration: none;
+}
 .ow-navigation .nav.navbar-nav > li > a:hover::after,
 .ow-navigation .nav.navbar-nav > li > a:focus::after {
 	color: #DD291C;
@@ -110,11 +120,13 @@ ul.nav.navbar-nav.header2 li a {
 }
 .header-section-1 .menu-block .ow-navigation .nav.navbar-nav li {
 	margin: 0 15px;
+	/* background-color: #000; */
 }
-/* .header-section-1 .menu-block .ow-navigation .nav.navbar-nav li > a {
-	margin-top: 0;
-	margin-bottom: 0;
-} */
+.header-section-1 .menu-block .ow-navigation .nav .navbar-nav li .btn a{
+	color: #040404;
+	text-decoration: none; 
+	font-weight: bold;		
+}
 .header-section-1 .ow-navigation .navbar-nav > li > a:hover::before, 
 .header-section-1 .ow-navigation .navbar-nav > li > a:focus::before,
 .header-section-1 .ow-navigation .navbar-nav > .active > a::before, 

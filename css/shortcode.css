@@ -937,7 +937,7 @@
 	background-color: #f8f8f8;
 	padding-top: 150px;
 	padding-bottom: 150px;
-	margin-bottom: 150px;
+	/* margin-bottom: 80px; */
 }
 .service-gallery {
 	background-color: #fff;
